@@ -23,8 +23,6 @@ using System.Web.Profile;
 
 namespace Spark.Web.Mvc.Wrappers
 {
-    [AspNetHostingPermission(SecurityAction.LinkDemand, Level = AspNetHostingPermissionLevel.Minimal),
-     AspNetHostingPermission(SecurityAction.InheritanceDemand, Level = AspNetHostingPermissionLevel.Minimal)]
     public class HttpContextWrapper : HttpContextBase
     {
         // Fields
